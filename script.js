@@ -16,12 +16,14 @@ class Student extends Person {
 	study(){
 		return '$(this.name) is studying';
 	}
+	console.log(study());
 }
 
 class Teacher extends Person {
 	teach(){
 		return '$(this.name) is teaching';
 	}
+	console.log(teach());
 }
 
 // Do not change the code below this line
