@@ -4,7 +4,7 @@ get name(){
 	return this.name;
 }
 set age(age){
-	return this.age;
+	return this.age=age;
 }
 }
 class Student extends Person {
