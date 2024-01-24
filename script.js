@@ -1,10 +1,5 @@
 //complete this code
 class Person {
-	constructer(name,age)
-	{
-		this.name=name;
-		this.age=age
-	}
 get name(){
 	return this.name;
 }
